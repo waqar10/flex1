@@ -41,17 +41,17 @@ body{
 
 #content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 1.5rem;
 }
 #content .box{
-    box-shadow: rgba(63, 58, 58, 0.3);
     background-color: #f2f4b2de;
     margin-bottom: 1rem;
+    
 }
 #content .box > img{
     height: 18rem;
-    width: 17rem;
 }
 #content .box .verified-name{
     padding: 10px;
@@ -83,6 +83,7 @@ body{
 #content .box .verified-name > button:hover{
     background-color: #0c907d;
     border: #0c907d;
+
 }
 
 #footer{
