@@ -55,13 +55,12 @@ body{
 #content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 1.5rem;
 }
 #content .box{
     background-color: #e6e6e3de;
     margin-bottom: 1rem;
-    /* align-items: center; */
     flex-basis: 10rem;
     /* align-content: center; */
     text-align: center;
